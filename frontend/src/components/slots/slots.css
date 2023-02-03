@@ -1,0 +1,74 @@
+.slot-item {
+  background-color: #ffffff;
+  padding: 10px;
+  flex: 20% 1;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.slot-header {
+  font-size: 20px;
+  color: #116872;
+  font-weight: bold;
+}
+
+.slot-text {
+  font-size: 12px;
+}
+
+.slot-error-text {
+  font-size: 12px;
+  color: red;
+  font-weight: bold;
+}
+
+.button {
+  background-color: #116872; /* Green */
+  border: none;
+  color: white;
+  border-radius: 8px;
+
+  text-align: center;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  padding: 8px 15px;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 80%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.confirm-button {
+  background: #ffffff;
+  border: 1px solid #116872;
+  border-radius: 8px;
+
+  text-align: center;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  padding: 8px 15px;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 50%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.event-name-input {
+  border: 1px solid #000000;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  padding: 7px 10px;
+}

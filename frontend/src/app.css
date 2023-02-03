@@ -1,0 +1,20 @@
+.app {
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+  flex-wrap: wrap;
+  background-color: #EDF4F6;
+}
+
+
+
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
